@@ -15,7 +15,7 @@ class Shoe
   
   def brand=(brand)
     @brand = brand
-    GENRES << genre
+    BRANDS << brand
   end
 
 end
